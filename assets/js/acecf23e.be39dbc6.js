@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklineage_wiki=globalThis.webpackChunklineage_wiki||[]).push([[1903],{1912(i){i.exports=JSON.parse('{"blogBasePath":"/lineage-wiki/blog","blogTitle":"Blog","authorsListPath":"/lineage-wiki/blog/authors"}')}}]);
