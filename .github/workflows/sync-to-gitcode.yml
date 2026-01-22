@@ -1,0 +1,19 @@
+name: Sync toGitee
+
+on: 
+  push: 
+    branches: [master]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Push to Gitee
+        env:
+          GITCODE_TOKEN: ${{ secrets.GITCODE_TOKEN }}
+        run: |          
+          git remote add gitcode https://oauth2:${GITCODE_TOKEN}@gitcode.com/qq_25531791/lineage-wiki.git
+          git push -f gitcode master
