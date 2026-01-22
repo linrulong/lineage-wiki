@@ -14,9 +14,6 @@ jobs:
       - name: Push to Gitee
         env:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-        run: |
-          git init
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"  
+        run: |          
           git remote add gitee https://oauth2:${GITEE_TOKEN}@gitee.com/budong_lrl/lineage-wiki.git
           git push -f gitee master
