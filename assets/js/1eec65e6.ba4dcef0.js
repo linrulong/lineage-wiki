@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunklineage_wiki=globalThis.webpackChunklineage_wiki||[]).push([[1975],{6007(e){e.exports=JSON.parse('{"metadata":{"permalink":"/lineage-wiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

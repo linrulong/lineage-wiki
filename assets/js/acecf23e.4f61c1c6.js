@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklineage_wiki=globalThis.webpackChunklineage_wiki||[]).push([[1903],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
