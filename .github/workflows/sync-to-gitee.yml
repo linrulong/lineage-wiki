@@ -17,3 +17,9 @@ jobs:
         run: |
           git remote add gitee https://oath2:${GITEE_TOKEN}@gitee.com/budong_lrl/lineage-wiki.git
           git push -f gitee master
+      - name: Debug Token
+        run: |
+          echo "Token lenth: ${#GITEE_TOKEN}"
+          echo "Token preview:${GITEE_TOKEN:0.5}..."
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
